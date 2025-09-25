@@ -28,7 +28,7 @@ $RWAH is a Solana-based token launched via Pump.fun that blends memes, NFTs, and
 ## 🖼️ Assets
 Visuals and certificates supporting the project:  
 - [4K Poster](./assets/RWAH_4K_poster.png)  
-- [Lock Certificate](./assets/RWAH_lock_certificate.png) _(placeholder — add your image or PDF)_  
+- [🔒 View Lock Certificate](assets/RWAH_Lock_Certificate.png) 
 - [Boss AssHat Character](./assets/BossAssHat.png)  
 
 ---
