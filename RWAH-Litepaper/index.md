@@ -1,3 +1,9 @@
+---
+title: RWAH Litepaper
+layout: default
+---
+
+
 # Real World AssHats ($RWAH)
 
 ![Poster](./assets/RWAH_4K_poster.png)
