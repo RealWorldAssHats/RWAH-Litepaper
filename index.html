@@ -7,89 +7,87 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
-      text-align: center;
-      background-color: #f8f9fa;
+      background: #f9fafb;
+      color: #111827;
     }
     header {
-      background: #16a34a;  /* Tailwind green */
-      color: #fff;
-      padding: 20px;
+      background: #16a34a; /* Green */
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
     }
-    header img {
-      margin-top: 10px;
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
     }
     main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-bottom: 0;
-    }
-    h2 {
-      margin-top: 40px;
-      color: #2563eb;
-    }
-    .poster {
-      margin: 40px 0;
-    }
-    .poster img {
-      width: 600px;
-      max-width: 90%;
-      border: 2px solid #ddd;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
       border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    main h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #16a34a;
+    }
+    .resources a {
+      display: block;
+      margin: 0.5rem 0;
+      text-decoration: none;
+      color: #16a34a;
+      font-weight: bold;
+    }
+    .resources a:hover {
+      text-decoration: underline;
     }
     footer {
-      background: #16a34a;  /* Tailwind green */
-      color: #fff;
-      padding: 10px;
-      margin-top: 40px;
+      margin-top: 2rem;
+      background: #16a34a; /* Green */
+      color: white;
+      text-align: center;
+      padding: 1rem;
     }
   </style>
 </head>
 <body>
-
-  <!-- HEADER -->
   <header>
     <h1>$RWAH Litepaper</h1>
     <p>The memecoin with identity, culture, and community power</p>
-    <img src="assets/BossAssHat.png" alt="Boss AssHat" width="200">
+    <a href="assets/BossAssHat.png" target="_blank">
+      <img src="assets/BossAssHat.png" alt="Boss AssHat" width="150">
+    </a>
   </header>
 
-  <!-- MAIN -->
   <main>
     <h2>About $RWAH</h2>
     <p>$RWAH is a Solana-based token launched via Pump.fun that blends memes, NFTs, and interactive storytelling into one global community movement.</p>
 
     <h2>Poster</h2>
-    <div class="poster">
-      <a href="assets/RWAH_4K_poster.png" target="_blank">
-  <img src="assets/RWAH_4K_poster.png" alt="RWAH Poster">
-  </a>
-      <p><em>Click the poster to view the full 4K version</em></p>
-    </div>
+    <a href="assets/RWAH_4K_poster.png" target="_blank">
+      <img src="assets/RWAH_4K_poster.png" alt="RWAH Poster" width="300">
+    </a>
+    <p><em>Click the poster to view the full 4K version</em></p>
 
     <h2>Resources</h2>
-    <ul style="list-style:none; padding:0;">
-      <li>📜 📜 <a href="RWAH_Litepaper.md">Full Litepaper (Markdown)</a>
-      <li>🔒 <a href="https://tools.smithii.io/token-vesting-certificate/RWAH-Lock" target="_blank">View Lock Certificate</a></li>
-      <li>🐦 <a href="https://x.com/RealWorldAssHat" target="_blank">Twitter (X)</a></li>
-      <li>💬 <a href="https://t.me/RealWorldAssHatsChat" target="_blank">Telegram</a></li>
-      <li>🚀 <a href="https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump" target="_blank">Pump.fun</a></li>
-      <li>📊 <a href="https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj" target="_blank">Dexscreener</a></li>
-    </ul>
+    <div class="resources">
+      📜 <a href="RWAH_Litepaper.md">Full Litepaper (Markdown)</a>
+      🔒 <a href="https://tools.smithii.io/token-vesting-certificate/RWAH-Lock" target="_blank">View Lock Certificate</a>
+      🐦 <a href="https://x.com/RealWorldAssHat" target="_blank">Twitter (X)</a>
+      💬 <a href="https://t.me/RealWorldAssHatsChat" target="_blank">Telegram</a>
+      🚀 <a href="https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump" target="_blank">Pump.fun</a>
+      📊 <a href="https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj" target="_blank">Dexscreener</a>
+    </div>
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <p>Be part of the Real World AssHat family — your voice shapes the $RWAH universe.</p>
   </footer>
-
 </body>
 </html>
 
