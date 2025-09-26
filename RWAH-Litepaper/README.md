@@ -34,10 +34,11 @@ Visuals and certificates supporting the project:
 ---
 
 ## 🔗 Official Links
-- **X (Twitter):** https://x.com/RealWorldAssHat25  
-- **Telegram:** https://t.me/your-link-here  
-- **Pump.fun:** https://pump.fun  
-- **Lock Certificate:** https://tools.smithii.io/token-vesting-certificate/RWAH-Lock
+- [🐦 X (Twitter)](https://x.com/RealWorldAssHat)  
+- [💬 Telegram](https://t.me/RealWorldAssHatsChat)  
+- [🎰 Pump.fun Launch](https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump)  
+- [📊 Dexscreener](https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj)  
+- [🔒 Lock Certificate](assets/RWAH_Lock_Certificate.png)  
 
 ---
 
