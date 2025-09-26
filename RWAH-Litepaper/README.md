@@ -38,7 +38,7 @@ Visuals and certificates supporting the project:
 - [💬 Telegram](https://t.me/RealWorldAssHatsChat)  
 - [🎰 Pump.fun Launch](https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump)  
 - [📊 Dexscreener](https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj)  
-- [🔒 View Lock Certificate (Smithii)](https://smithii.io/explore/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump)
+- [🔒 View Lock Certificate (Smithii)](https://tools.smithii.io/token-vesting-certificate/RWAH-Lock)
 
 ---
 
