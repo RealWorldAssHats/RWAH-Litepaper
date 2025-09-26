@@ -16,7 +16,8 @@ Around him, the **AssHat Club** and **AssHat Island** continue to grow, bringing
 - **Locked:** 10% (100,000,000 $RWAH) locked  
 - **Active Supply:** 90% circulating  
 - **Chain:** Solana (Pump.fun)  
-- **Contract:** Immutable  
+- **Contract:** Immutable
+- **Contract Address (CA):** 9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump
 
 ---
 
