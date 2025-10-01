@@ -1,102 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>$RWAH Litepaper</title>
   <style>
+    :root { --green:#228B22; }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
+      color: #222;
+      background: #ffffff;
+      text-align: center;
+      line-height: 1.5;
     }
+
     header {
-      background: #228B22; /* Green */
+      background: var(--green);
       color: #fff;
-      padding: 20px;
-      text-align: center;
+      padding: 30px 16px 20px;
     }
-    header img {
-      max-width: 120px;
-      margin: 10px 0;
+
+    /* Banner image – full width, nicely cropped, won’t shrink */
+    .banner {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+      display: block;
+      margin: 16px auto 0;
     }
+
     section {
-      padding: 20px;
-      text-align: center;
+      max-width: 960px;
+      margin: 24px auto;
+      padding: 0 16px;
     }
-    section img {
-      max-width: 80%;
+
+    h2 {
+      color: var(--green);
+      margin: 0 0 12px;
+    }
+
+    a { color: var(--green); text-decoration: none; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+
+    /* Poster image */
+    .poster {
+      max-width: 100%;
       height: auto;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      margin-top: 10px;
+      margin: 10px auto 0;
+      border-radius: 6px;
     }
-    a {
-      color: #228B22;
-      text-decoration: none;
+
+    /* Put each resource link on its own line, guaranteed */
+    .resources p {
+      margin: 8px 0;
     }
-    a:hover {
-      text-decoration: underline;
-    }
+
     footer {
-      background: #228B22;
+      background: var(--green);
       color: #fff;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
+      padding: 16px;
+      margin-top: 28px;
     }
   </style>
 </head>
 <body>
   <header>
-  <h1>$RWAH Litepaper</h1>
-  <p>The memecoin with identity, culture, and community power</p>
-  
-  <!-- Full-width banner style -->
-  <a href="assets/BossAssHat.png" target="_blank">
-    <img src="assets/BossAssHat.png" 
-         alt="Boss AssHat Banner" 
-         style="width: 100%; max-height: 300px; object-fit: cover; margin-top: 15px;">
-  </a>
-</header>
+    <h1>$RWAH Litepaper</h1>
+    <p>The memecoin with identity, culture, and community power</p>
+
+    <!-- Boss AssHat banner (clickable) -->
+    <a href="assets/BossAssHat.png" target="_blank">
+      <img src="assets/BossAssHat.png" alt="Boss AssHat Banner" class="banner">
+    </a>
+  </header>
 
   <section>
     <h2>About $RWAH</h2>
     <p>
-      $RWAH is a Solana-based token launched via Pump.fun that blends memes, NFTs, 
+      $RWAH is a Solana-based token launched via Pump.fun that blends memes, NFTs,
       and interactive storytelling into one global community movement.
     </p>
   </section>
 
-  <!-- Poster section with heading and caption -->
+  <!-- Poster only (no heading), still clickable -->
   <section>
-    <h2>Poster</h2>
     <a href="assets/RWAH_4K_poster.png" target="_blank">
-      <img src="assets/RWAH_4K_poster.png" alt="$RWAH Poster">
+      <img src="assets/RWAH_4K_poster.png" alt="$RWAH Poster" class="poster">
     </a>
-    <p><em>Click the poster to view the full 4K version</em></p>
   </section>
 
- <section>
-  <h2>Resources</h2>
-  <p>
-    <a href="litepaper">📄 Full Litepaper</a>
-
-    <a href="https://tools.smithii.io/token-vesting-certificate/RWAH-Lock" target="_blank">🔒 View Lock Certificate</a><br>
-    
-    <a href="https://x.com/RealWorldAssHat" target="_blank">🐦 Twitter (X)</a><br>
-    <a href="https://t.me/RealWorldAssHatsChat" target="_blank">💬 Telegram</a><br>
-    <a href="https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump" target="_blank">🚀 Pump.fun</a><br>
-    <a href="https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj" target="_blank">📊 Dexscreener</a>
-  </p>
-</section>
+  <section>
+    <h2>Resources</h2>
+    <div class="resources">
+      <p>📄 <a href="litepaper">Full Litepaper</a></p>
+      <p>🔒 <a href="https://tools.smithii.io/token-vesting-certificate/RWAH-Lock" target="_blank">View Lock Certificate</a></p>
+      <p>🐦 <a href="https://x.com/RealWorldAssHat" target="_blank">Twitter (X)</a></p>
+      <p>💬 <a href="https://t.me/RealWorldAssHatsChat" target="_blank">Telegram</a></p>
+      <p>🚀 <a href="https://pump.fun/coin/9ELmRURsCDrGgs2pD2H7LpaPDPEycxJsVSdza3pnpump" target="_blank">Pump.fun</a></p>
+      <p>📊 <a href="https://dexscreener.com/solana/a1wosqcakeucdzheuopmyawg39sdtgvafnxtfueekkgj" target="_blank">Dexscreener</a></p>
+    </div>
+  </section>
 
   <footer>
-    <p>Be part of the Real World AssHat family — your voice shapes the $RWAH universe.</p>
+    Be part of the Real World AssHat family — your voice shapes the $RWAH universe.
   </footer>
 </body>
 </html>
-
