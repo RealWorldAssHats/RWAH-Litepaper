@@ -3,7 +3,6 @@ title: "$RWAH Litepaper"
 permalink: /litepaper
 ---
 # Real World AssHats ($RWAH) – Litepaper
-
 ---
 
 ## Introduction & Origin
