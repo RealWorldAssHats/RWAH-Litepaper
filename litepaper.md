@@ -78,11 +78,13 @@ The **AssHat Club** is our growing global community — anyone can join.
 ---
 
 ## Roadmap
-| Term | Goals |
-|------|-------|
-| **Short-term (0–3m)** | Streams, raffles, NFT launch, **AssHat Island Season 1 narrated story**, **TikTok AssHat filter** |
-| **Mid-term (3–6m)** | **AssHat Island Season 2**, staking, NFT battles |
-| **Long-term (6–12m+)** | Expanded lore, collabs, cross-chain integration |
+
+| Term                   | Goals                                                                                          |
+|------------------------|-------------------------------------------------------------------------------------------------|
+| **Short-term (0–3m)**  | Streams, raffles, NFT launch; **AssHat Island Season 1** narrated story; TikTok AssHat filter |
+| **Mid-term (3–6m)**    | **AssHat Island Season 2**; staking; NFT battles                                               |
+| **Long-term (6–12m+)** | Expanded lore; collabs; cross-chain integration                                                |
+
 
 ---
 
