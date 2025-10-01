@@ -22,14 +22,16 @@
       padding: 30px 16px 20px;
     }
 
-    /* Banner image – full width, nicely cropped, won’t shrink */
-    .banner {
-      width: 100%;
-      max-height: 320px;
-      object-fit: cover;
-      display: block;
-      margin: 16px auto 0;
-    }
+    /* Banner image – fit full image, no crop */
+.banner {
+  width: 100%;
+  max-height: 280px;   /* adjust the number to control banner height */
+  object-fit: contain; /* show the whole image without cropping */
+  display: block;
+  margin: 16px auto 0;
+  background: #228B22; /* green background behind it */
+  padding: 10px 0;
+}
 
     section {
       max-width: 960px;
